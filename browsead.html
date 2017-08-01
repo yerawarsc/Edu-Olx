@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Browse Ads</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.min.js"></script>
+      <script src="js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+  <center><div class="col-xs-12" style="font-family:'Lobster' ,cursive;color:blue;background-color:light-blue;"><h1>Browse Ads</h1></div></center>
+      <div class="container">
+  <form action="browsead.php" method="post"><br><br>
+	<label>Select Category:</label>
+	 <select class="form-control" id="category" name="category">
+	 <option value="all categories">all categories</option>
+	  <option value="1st yr books">1st yr books</option>
+	  <option value="2nd yr books">2nd yr books</option>
+	  <option value="3rd yr books">3rd yr books</option>
+	  <option value="4th yr books">4th yr books</option>
+	  <option value="1">1</option>
+	</select><hr>
+	 <button type="submit" class="btn btn-primary">Browse Ad</button>
+	 </form>
+</div>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,35 @@
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 0px;
+      border-radius: 0;
+	  overflow:hidden;
+    }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+	  }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+	  background-color: #e8f8f5  ;
+          
+      padding: 15px;
+    }
+	.back{
+	background-image: url("d.jpg");
+	height=700px;
+	width=1400px;
+        margin -top:none;
+}
+	
+.image{
+	background-image:url("img/adimg/book.jpg ");
+	height=700px;
+	width=1400px;
+	margin -top:none;
+	}
+	.jumbotron {
+    background-color: #0B2F3A;
+    color: #ffffff;
+	
+}
